@@ -94,6 +94,8 @@ body {
     order: 2;
 }
 
+/* footer */
+
 .footer {
     display: flex;
     justify-content: space-evenly;

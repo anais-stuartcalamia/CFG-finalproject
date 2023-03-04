@@ -29,11 +29,13 @@ body {
 
 }
 
+
 .navbar a {
     color: #646C8F;
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
+   
 }
 
 .navbar a:hover {
@@ -94,7 +96,142 @@ body {
     order: 2;
 }
 
-/* footer */
+
+
+
+  /* Ressource page  */
+
+  #h2multi {
+    text-align: center;
+  }
+
+  .maincol {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Flip box essay */
+  
+  .flipdamages {
+    background-color: #DCC3A1;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #f7f5f5;
+    perspective: 1000px;
+    margin-top: 75px;
+  }
+
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flipdamages:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-box-front {
+    background-color: #646C8F;
+    color:#FFE3CC;
+    
+  }
+  
+  .flip-box-back {
+    background-image: url(photo-1585119192228-f072c53bc55c.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#DCC3A1;
+    transform: rotateX(180deg);
+  }
+
+  #fliptx {
+    margin-top: 40%;
+    font-size: 20px;
+  }
+
+  .damages {
+    font-weight: bold;
+    list-style-type: none;
+    margin-right: 10%;
+    margin-top: 15%;
+  }
+ 
+
+  .flip-box-front, .flipback2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flipback2 {
+    background-image: url(photo-1623520000876-e6bdaedc018f.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFE3CC;
+    transform: rotateX(180deg);
+  }
+
+  .flipbox {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  /* Image Website Gallery Ressource */
+ 
+  .rscrgallery {
+     display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 70px;
+      margin-bottom: 50px;
+
+  }
+  
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* float: center; */
+    width: 180px;
+    background-color: #8F797E;
+  }
+  
+ .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    color: #FFE3CC;
+  }
+
+
+
+
+
+  /* footer */
 
 .footer {
     display: flex;

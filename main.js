@@ -8,7 +8,7 @@ function myFunction() {
     else if (question == "3"){ 
         text = prompt ("Let's try again!");
     }
-
+    
 
     if (question2 == "1")  
         window.open ("zombie.html");
@@ -22,16 +22,17 @@ function myFunction() {
     else if (question3 == "2")
      window.open ("zombie.html"); 
     else if (question3 == "3") {
-        text = prompt ("Since when has fear worked for the right purpose, let's try again!");
+        question6 = prompt ("Since when has fear worked for the right purpose, let's try again!");
     }
 
     if (question4 == "1") {
-        text = prompt ("Good try but it didn't help that much, let's try again!");
+        question5 = prompt ("Good try but it didn't help that much, let's try again!");
     } else if (question4 == "2") 
         window.open ("win2.html");
     else if (question4 == "3") 
         window.open ("zombie.html");
     
+        
   }
  
 

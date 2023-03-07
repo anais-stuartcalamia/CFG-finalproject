@@ -618,16 +618,14 @@ margin-top: 30px;
 
 /* Responsive */
 
-@media only screen and (max-width:800px) {
-    /* For tablets: */
-    .resp {
-      width: 80%;
-      padding: 0;
+
+ @media (max-width: 840px) {
+      .resp {
+        padding-left: 0;
+        text-align: center;
+      }
+      
     }
-    .resp {
-      width: 100%;
-    }
-  }
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .resp {

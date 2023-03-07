@@ -238,12 +238,13 @@ body {
 
 .aboutbox {
   display: flex;
-    flex-wrap: wrap;
   justify-content: center;
+     
      margin-left: 20px;
     margin-right: 10%; 
     margin-top: 10%;
     margin-bottom: 10%;
+    
 }
 
 .main-box{

@@ -18,7 +18,7 @@ function myFunction() {
             question3 = prompt ("Who knew this could be so simple! \n After you talked to your higher ups, they decided to fund the research porject against climate change and work in co-operation with the scientist. One problem remained, how to get different governments around the world to work towards saving our planet. \n 1.Put together a team with people from the science project, notorious NGOs, press officiers, ect and start a global campaign, \n 2.Send the project to different governemnt and let them deal with it,\n 3.Or Use a fear campaign to scare eveyrone off and hope that they make some changes");}   
 
     if (question3 == "1") 
-        window.open ("win.html");
+        window.open ("win2.html");
     else if (question3 == "2")
      window.open ("zombie.html"); 
     else if (question3 == "3") {
@@ -28,7 +28,7 @@ function myFunction() {
     if (question4 == "1") {
         text = prompt ("Good try but it didn't help that much, let's try again!");
     } else if (question4 == "2") 
-        window.open ("win.html");
+        window.open ("win2.html");
     else if (question4 == "3") 
         window.open ("zombie.html");
     

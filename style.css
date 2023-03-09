@@ -620,19 +620,15 @@ margin-top: 30px;
 /* Responsive */
 
 
- @media (max-width: 840px) {
-      .resp {
-        padding-left: 0;
-        text-align: center;
-      }
-      
-    }
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .resp {
-        width: 100%;
-        padding: 0;
-      }
-    .resp {
-      width: 100%;
-    }}
+@media only screen and (max-width: 700px) {
+  .resp {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .resp {
+    width: 100%;
+  }
+}

@@ -1,0 +1,266 @@
+.aboutbox {
+    display: flex;
+    justify-content: center;
+       
+       margin-left: 20px;
+      margin-right: 10%; 
+      margin-top: 10%;
+      margin-bottom: 10%;
+      
+  }
+  
+  .main-box{
+      /* position: absolute; */
+      /* left: 50%; */
+      bottom: 8%;
+      /* transform: translateX(-50%); */
+      width: 400px;
+      height: 550px;
+      text-align: center;
+      
+    }
+    .main-box .content{
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    .content .box{
+      position: absolute;
+      height: 50px;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    .share, .cancel{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      font-size: 20px;
+      font-weight: 600;
+      color:#646C8F;
+      line-height: 50px;
+      background:#DCC3A1;
+      letter-spacing: 1px;
+      border-radius: 25px;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+    .content .box .share{
+      opacity: 1;
+    }
+    #check:checked ~ .box .share{
+      opacity: 0;
+    }
+    #check:checked ~ .box .cancel{
+      opacity: 1;
+    }
+  
+    .content .image-box{
+      position: absolute;
+      height: 450px;
+      width: 100%;
+      bottom: 130px;
+      left: 50%;
+      transform: translateX(-50%);
+      background:#DCC3A1;
+      padding: 10px;
+      border-radius: 25px;
+      transition: all 0.4s ease;
+    }
+    #check:checked ~ .image-box{
+      bottom: 70px;
+    }
+    #check{
+      display: none;
+    }
+    .image-box::before{
+      position: absolute;
+      content: '';
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%) rotate(45deg);
+      height: 30px;
+      width: 30px;
+      background: #fff;
+      z-index: -1;
+    }
+    .image-box img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 26px;
+    }
+    .image-box .about{
+      position: absolute;
+      background: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      border-radius: 25px;
+      padding: 20px;
+      text-align: center;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+    #check:checked ~ .image-box .about{
+      opacity: 1;
+    }
+    .about .details{
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 35px;
+    }
+    .details .name, .job{
+      font-size: 18px;
+      font-weight: 500;
+      color: #FFC2B5;
+    }
+     .details .icon i{
+       font-size: 20px;
+       color: #FFC2B5;
+       height: 45px;
+       width: 45px;
+       line-height: 43px;
+       border-radius: 50%;
+       border: 2px solid #DCC3A1;
+       margin: 14px 5px;
+       transition: all 0.3s ease;
+     }
+    .details .icon i:hover{
+      transform: scale(0.95);
+    }
+  
+   /* Box 2 */
+  
+   .main-box2{
+      /* position: absolute; */
+      left: 50%;
+      bottom: 8%;
+      /* transform: translateX(-50%); */
+      width: 400px;
+      height: 550px;
+      text-align: center;
+      
+   }
+    .main-box2 .content2{
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    .content2 .box2{
+      position: absolute;
+      height: 50px;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+    .share2, .cancel2{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      font-size: 20px;
+      font-weight: 600;
+      color:#646C8F;
+      line-height: 50px;
+      background: #DCC3A1;
+      letter-spacing: 1px;
+      border-radius: 25px;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+    .content2 .box2 .share2{
+      opacity: 1;
+    }
+    #check2:checked ~ .box2 .share2{
+      opacity: 0;
+    }
+    #check2:checked ~ .box2 .cancel2{
+      opacity: 1;
+    }
+    .content2 .image-box2{
+      position: absolute;
+      height: 450px;
+      width: 100%;
+      bottom: 130px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #DCC3A1;
+      padding: 10px;
+      border-radius: 25px;
+      transition: all 0.4s ease;
+    }
+    #check2:checked ~ .image-box2{
+      bottom: 70px;
+    }
+    #check2{
+      display: none;
+    }
+    .image-box2::before{
+      position: absolute;
+      content: '';
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%) rotate(45deg);
+      height: 30px;
+      width: 30px;
+      background: #fff;
+      z-index: -1;
+    }
+    .image-box2 img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 26px;
+    }
+    .image-box2 .about2{
+      position: absolute;
+      background: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      border-radius: 25px;
+      padding: 20px;
+      text-align: center;
+      opacity: 0;
+      transition: all 0.3s ease;
+    }
+    #check2:checked ~ .image-box2 .about2{
+      opacity: 1;
+    }
+    .about2 .details2{
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 35px;
+    }
+    .details2 .name2, .job2{
+      font-size: 18px;
+      font-weight: 500;
+      color: #FFC2B5;
+    }
+     .details2 .icon2 i{
+       font-size: 20px;
+       color: #FFC2B5;
+       height: 45px;
+       width: 45px;
+       line-height: 43px;
+       border-radius: 50%;
+       border: 2px solid #DCC3A1;
+       margin: 14px 5px;
+       transition: all 0.3s ease;
+     }
+    .details2 .icon2 i:hover{
+      transform: scale(0.95);
+    }
+  

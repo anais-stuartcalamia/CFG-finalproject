@@ -4,36 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activities</title>
+    <title>Game</title>
+
     <link rel="icon" type="image/x-icon" href="ClimateCode.jpg">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/game.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
 
 </head>
 <body>
     
-    <div class="resp">
+    
     <!-- Header + navbar -->
     <div class="landingheader">
-        <div class="navbar">
-            <a href="landing.html" class="logo">
-                <img src="ClimateCode.jpg" alt="ClimateCode" width="40" height="34">
-            </a>
-            <a href="landing.html">Home</a>
-            <a href="learn.html">Learn</a>
-            <!-- <a href="quizzes.html">Quizzes</a> -->
-            <a class="active" href="play.html">Activities</a>
-            <!-- <a href="contact.html">Contact</a> -->
-            <a href="aboutus.html">About Us</a>
-         </div>
-        <div class="title">
-            <h1>Our Planet, Our Impact</h1>
+        <div class="navbar" style="margin-top: -5em;">
+                <div class="logoimg">
+                    <a href="../index.html">
+                    <img src="../Gallery/ClimateCode.jpg" alt="ClimateCode" width="60" >
+                    </a> 
+                </div>
+                <div class="navbar2">
+                    <a  href="../index.html">Home</a>
+                    <a href="../html/learn.html">Learn</a>
+                    <a class="active" href="../html/play.html">Activities</a>
+                    <a  href="../html/aboutus.html">About Us</a>
+                </div>
+            </div>
+               <div class="title">
+                <h1>Our Planet, Our Impact</h1>
+            </div>
         </div>
-    </div>
-
     <!-- Game -->
 
     <div class="gamecont">
@@ -44,7 +55,7 @@ The game starts on a beautiful spring morning as you enter your office building 
 </p>
     </div>
 <div class="pictbtt">
-<img src="photo-1542435503-956c469947f6.webp" alt="working photo" width="500" height="260">
+<img src="../Gallery/img-computerandwork.webp" alt="working photo" width="500" height="260">
 <button class="button" onclick="myFunction()" >Let's start!</button>
 </div>
 <p id="gameplay"></p>
@@ -57,20 +68,30 @@ The game starts on a beautiful spring morning as you enter your office building 
 
      <!-- footer -->
      <footer class="footer">
-        <div class="container">
-          <a href="https://www.youtube.com/watch?v=r9PeYPHdpNo" target="_blank"><i class="fa fa-youtube-play" style="font-size:24px"></i></a>
-          <a href="https://www.instagram.com/davidattenborough/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="font-size:24px"></i></a>
-          <a href="https://github.com/anais-stuartcalamia/CFG-finalproject" target="_blank"><i class="fa fa-github" aria-hidden="true" style="font-size:24px"></i></a>
-           </div>
-      <div class="pagecontainer">
-          <a id="discl" href="#">Disclaimer</a>
-          <a id="tc" href="#">Terms and Conditions</a>
-      </div>
-      <div class="copyright">
-          © 2023 Copyright: Anaïs and Catherine for CFG
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <a href="https://www.youtube.com/watch?v=r9PeYPHdpNo" target="_blank"><i class="fa fa-youtube-play" style="font-size:24px"></i></a>
+              <a href="https://www.instagram.com/davidattenborough/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="font-size:24px"></i></a>
+              <a href="https://github.com/anais-stuartcalamia/CFG-finalproject" target="_blank"><i class="fa fa-github" aria-hidden="true" style="font-size:24px"></i></a>
+        
+            </div>
+            <div class="col">
+              <a id="discl" href="#">Disclaimer</a>
+              <a id="tc" href="#">Terms and Conditions</a>
+        
+            </div>
+            <div class="col">
+              © 2023 Copyright: Anaïs and Catherine for CFG
+      
+            </div>
+          </div>
         </div>
-      </footer> 
-    </div>
-    <script src="main.js"></script>
+          
+             
+      
+        </footer> 
+  
+    <script src="../main.js"></script>
 </body>
 </html>

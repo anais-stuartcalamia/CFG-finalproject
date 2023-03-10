@@ -1,0 +1,17 @@
+.footer {
+    background-color: #FFE3CC;
+    padding: 50px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.footer a {
+    color: #8F797E;
+}
+
+#discl {
+    margin: 20px;
+}
+.copyright {
+    color: #8F797E;
+}
